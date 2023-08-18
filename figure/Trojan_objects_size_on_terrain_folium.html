@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_40036cc05bbe70393fb4f6420851ca21 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_40036cc05bbe70393fb4f6420851ca21" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_40036cc05bbe70393fb4f6420851ca21 = L.map(
+                "map_40036cc05bbe70393fb4f6420851ca21",
+                {
+                    center: [45.6033261, 9.3001047],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    title: "Object size",
+                    Stamen: "Toner",
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6f3d5624df1db2b2bb62abf041610ff2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_40036cc05bbe70393fb4f6420851ca21);
+        
+    
+            var circle_999724b90f24e814bd29213b165a5b23 = L.circle(
+                [45.6033261, 9.3001047],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10419, "stroke": true, "weight": 3}
+            ).addTo(map_40036cc05bbe70393fb4f6420851ca21);
+        
+    
+        var popup_6cf5606599867bcfbf802324ae635905 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76d2772ff79e6a4d6ed9dfff67293c22 = $(`<div id="html_76d2772ff79e6a4d6ed9dfff67293c22" style="width: 100.0%; height: 100.0%;">Trojan object diameter: 20.839765053763443 Km</div>`)[0];
+                popup_6cf5606599867bcfbf802324ae635905.setContent(html_76d2772ff79e6a4d6ed9dfff67293c22);
+            
+        
+
+        circle_999724b90f24e814bd29213b165a5b23.bindPopup(popup_6cf5606599867bcfbf802324ae635905)
+        ;
+
+        
+    
+    
+            var circle_c18a08d673446e66810f6acbd368936a = L.circle(
+                [45.6033261, 9.3001047],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1971, "stroke": true, "weight": 3}
+            ).addTo(map_40036cc05bbe70393fb4f6420851ca21);
+        
+    
+        var popup_b923fe04226c65f5258caf1b961b7114 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79e799ffccb04721bbd849eab49ceccc = $(`<div id="html_79e799ffccb04721bbd849eab49ceccc" style="width: 100.0%; height: 100.0%;">Trojan object diameter: 3.943 Km</div>`)[0];
+                popup_b923fe04226c65f5258caf1b961b7114.setContent(html_79e799ffccb04721bbd849eab49ceccc);
+            
+        
+
+        circle_c18a08d673446e66810f6acbd368936a.bindPopup(popup_b923fe04226c65f5258caf1b961b7114)
+        ;
+
+        
+    
+    
+            var circle_fb6b0ea11d8a7fe739b26d26e5becdc0 = L.circle(
+                [45.6033261, 9.3001047],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6258, "stroke": true, "weight": 3}
+            ).addTo(map_40036cc05bbe70393fb4f6420851ca21);
+        
+    
+        var popup_22aa22c1884a44fd1222728f049d2030 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_094c40213cb714852cc5c146463f011b = $(`<div id="html_094c40213cb714852cc5c146463f011b" style="width: 100.0%; height: 100.0%;">Trojan object diameter: 12.516 Km</div>`)[0];
+                popup_22aa22c1884a44fd1222728f049d2030.setContent(html_094c40213cb714852cc5c146463f011b);
+            
+        
+
+        circle_fb6b0ea11d8a7fe739b26d26e5becdc0.bindPopup(popup_22aa22c1884a44fd1222728f049d2030)
+        ;
+
+        
+    
+    
+            var circle_dacb8c679f0e7b366de68b73ed26ccf1 = L.circle(
+                [45.6033261, 9.3001047],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7776, "stroke": true, "weight": 3}
+            ).addTo(map_40036cc05bbe70393fb4f6420851ca21);
+        
+    
+        var popup_6950394c3e952cb555803396265fd663 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1d8e541df18a63bd25984131ea7a5ca = $(`<div id="html_b1d8e541df18a63bd25984131ea7a5ca" style="width: 100.0%; height: 100.0%;">Trojan object diameter: 15.553 Km</div>`)[0];
+                popup_6950394c3e952cb555803396265fd663.setContent(html_b1d8e541df18a63bd25984131ea7a5ca);
+            
+        
+
+        circle_dacb8c679f0e7b366de68b73ed26ccf1.bindPopup(popup_6950394c3e952cb555803396265fd663)
+        ;
+
+        
+    
+    
+            var circle_6ae01cc15a1edd00ac64f1135b11514f = L.circle(
+                [45.6033261, 9.3001047],
+                {"bubblingMouseEvents": true, "color": "white", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "white", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11039, "stroke": true, "weight": 3}
+            ).addTo(map_40036cc05bbe70393fb4f6420851ca21);
+        
+    
+        var popup_2176f66e568568a080e053a4ee6a8d9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99eb40cc0b128d0dedc71ef7863c6e00 = $(`<div id="html_99eb40cc0b128d0dedc71ef7863c6e00" style="width: 100.0%; height: 100.0%;">Trojan object diameter: 22.079 Km</div>`)[0];
+                popup_2176f66e568568a080e053a4ee6a8d9b.setContent(html_99eb40cc0b128d0dedc71ef7863c6e00);
+            
+        
+
+        circle_6ae01cc15a1edd00ac64f1135b11514f.bindPopup(popup_2176f66e568568a080e053a4ee6a8d9b)
+        ;
+
+        
+    
+    
+            var circle_681ec0a1f42bf16874c1c49b300f217a = L.circle(
+                [45.6033261, 9.3001047],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 73684, "stroke": true, "weight": 3}
+            ).addTo(map_40036cc05bbe70393fb4f6420851ca21);
+        
+    
+        var popup_498f8093a12fa1981b0ec923ab49e99c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0aa6e58a1638edd4c4dfc2ae1e6f3f4b = $(`<div id="html_0aa6e58a1638edd4c4dfc2ae1e6f3f4b" style="width: 100.0%; height: 100.0%;">Trojan object diameter: 147.369 Km</div>`)[0];
+                popup_498f8093a12fa1981b0ec923ab49e99c.setContent(html_0aa6e58a1638edd4c4dfc2ae1e6f3f4b);
+            
+        
+
+        circle_681ec0a1f42bf16874c1c49b300f217a.bindPopup(popup_498f8093a12fa1981b0ec923ab49e99c)
+        ;
+
+        
+    
+</script>
+</html>
