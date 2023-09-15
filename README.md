@@ -1,4 +1,4 @@
-# Jupiter_Asteroids
+# Jupiter Asteroids
 
 Amateur analisys for the following **family objects**:
 
