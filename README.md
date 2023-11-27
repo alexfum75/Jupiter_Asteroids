@@ -1,5 +1,7 @@
 # Jupiter Asteroids
 
+![example workflow](https://github.com/alexfum75/docs/actions/workflows/main.yml/badge.svg)
+
 Amateur analisys for the following **family objects**:
 
 1. Hilda asteroids
